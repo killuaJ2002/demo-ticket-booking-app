@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 100px 50px;
+    text-align: center;
+    background-color: rgba(5, 144, 244, 0.1);
+}
+
+header h1{
+    margin-bottom: 20px;
+    font-family: "Bitcount Prop Single", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+header h1:hover {
+    color: #8CCDEB;
+}
+
+header h3 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+header h3:hover {
+    color: #8CCDEB;
+}
+
+.form__container {
+    padding: 55px 50px 55px 50px;
+    background-color: #f0f8ff;
+}
+
+.form__section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 50px 50px;
+    background-color: #d6ecf9;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 300px;
+}
+
+.form__row {
+  width: 100%;
+}
+
+input {
+    border: 1px solid #a9a7a7;
+    padding: 5px 15px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px; /* optional limit */
+    box-sizing: border-box;
+}
+
+input:hover{
+    border: 1px solid #333;
+}
+
+footer {
+    padding: 15px 0px;
+    text-align: center;
+    background-color: rgba(5, 144, 244, 0.1);
+    font-weight: 350;
+}
+
+button{
+    background-color: #8CCDEB;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #77BEF0;
+}
