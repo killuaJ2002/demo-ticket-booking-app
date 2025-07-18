@@ -3,9 +3,14 @@ const form = document.querySelector(".form__section");
 const handleSubmit = async (e) => {
   e.preventDefault(); // prevent page reload
 
-  const from = document.getElementById("fromInput").value;
-  const to = document.getElementById("toInput").value;
-  const date = document.getElementById("dateInput").value;
+  const from = document.getElementById("fromInput").value.trim();
+  const to = document.getElementById("toInput").value.trim();
+  const date = document.getElementById("dateInput").value.trim();
+
+  if (!from || !to || !date) {
+    alert("Please fill in all fields.");
+    return;
+  }
 
   try {
     const response = await fetch("http://localhost:8000/api/data", {

@@ -27,12 +27,14 @@
     <div class="form__container">
       <form class="form__section">
         <div class="form__row">
-          <input type="text" placeholder="From" id="fromInput" />
+          <input type="text" placeholder="From" id="fromInput" required />
         </div>
         <div class="form__row">
-          <input type="text" placeholder="To" id="toInput" />
+          <input type="text" placeholder="To" id="toInput" required />
         </div>
-        <div class="form__row"><input type="date" id="dateInput" /></div>
+        <div class="form__row">
+          <input type="date" id="dateInput" required />
+        </div>
         <button type="submit">Submit</button>
       </form>
     </div>
