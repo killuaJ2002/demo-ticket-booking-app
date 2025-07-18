@@ -13,7 +13,7 @@ const handleSubmit = async (e) => {
   }
 
   try {
-    const response = await fetch("http://localhost:8000/api/data", {
+    const response = await fetch("http://localhost:4000/api/data", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
