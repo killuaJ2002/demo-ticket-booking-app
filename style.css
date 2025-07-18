@@ -92,6 +92,6 @@ button:hover {
     background-color: #77BEF0;
 }
 
-input[type="date"] {
+input{
   color: #6c757d; 
 }
